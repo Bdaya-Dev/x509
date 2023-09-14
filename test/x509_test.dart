@@ -4,7 +4,7 @@ import 'dart:typed_data';
 
 import 'package:asn1lib/asn1lib.dart';
 import 'package:test/test.dart';
-import 'package:x509/x509.dart';
+import 'package:x509_plus/x509.dart';
 
 void main() {
   group('rsa', () {

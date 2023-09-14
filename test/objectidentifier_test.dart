@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:x509/x509.dart';
+import 'package:x509_plus/x509.dart';
 
 void main() {
   group('name', () {
