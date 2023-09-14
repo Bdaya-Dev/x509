@@ -50,11 +50,11 @@ class ObjectIdentifier {
   }
 
   @override
-  int get hashCode => hashObjects(nodes);
+  int get hashCode => ListEquality().hash(nodes);
 
   @override
   bool operator ==(dynamic other) =>
-      other is ObjectIdentifier && listsEqual(nodes, other.nodes);
+      other is ObjectIdentifier && ListEquality().equals(nodes, other.nodes);
 
   String get name {
     try {

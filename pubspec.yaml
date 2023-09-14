@@ -1,6 +1,6 @@
 name: x509_plus
 description: Dart library for parsing and working with X.509 certificates.
-version: 0.2.5
+version: 0.3.0
 homepage: https://github.com/Bdaya-Dev/x509
 funding:
  - https://github.com/sponsors/rbellens
@@ -10,8 +10,8 @@ environment:
 
 dependencies:
   asn1lib: ^1.5.0
-  crypto_keys: '>=0.2.0 <0.4.0'
-  quiver: ^3.0.0
+  collection: ^1.18.0
+  crypto_keys_plus: '^0.4.0'  
 
 dev_dependencies:
   lints: ^2.0.0

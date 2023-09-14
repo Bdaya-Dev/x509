@@ -4,15 +4,13 @@
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:typed_data';
-
 import 'package:asn1lib/asn1lib.dart';
-import 'package:crypto_keys/crypto_keys.dart';
-import 'package:quiver/collection.dart';
-import 'package:quiver/core.dart';
+import 'package:collection/collection.dart';
+import 'package:crypto_keys_plus/crypto_keys.dart';
 
 import 'util.dart';
 
-export 'package:crypto_keys/crypto_keys.dart';
+export 'package:crypto_keys_plus/crypto_keys.dart';
 
 part 'certificate.dart';
 part 'extension.dart';
