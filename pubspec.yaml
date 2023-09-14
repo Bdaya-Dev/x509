@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   asn1lib: ^1.5.0
-  collection: ^1.18.0
+  collection: ^1.16.0
   crypto_keys_plus: '^0.4.0'  
 
 dev_dependencies:
