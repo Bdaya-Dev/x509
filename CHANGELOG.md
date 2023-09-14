@@ -1,3 +1,6 @@
+## 0.3.1
+ - lower `package:collection` constraints
+
 ## 0.3.0
 
   - **CHORE**: removed quiver dependency.
