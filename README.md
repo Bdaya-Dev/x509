@@ -11,7 +11,7 @@ Dart library for parsing and working with X.509 certificates.
 A simple usage example:
 
 ```dart
-import 'package:x509/x509.dart';
+import 'package:x509_plus/x509.dart';
 import 'dart:io';
 
 void main() {
