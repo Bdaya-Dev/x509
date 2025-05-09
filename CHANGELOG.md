@@ -1,3 +1,7 @@
+## 0.3.3
+
+ - **UPGRADE**: Updated to use crypto_keys_plus 0.5.0 which uses pointycastle 4.0.0.
+
 ## 0.3.2
 
  - **FIX**: null-aware warnings (pull request [#25](https://github.com/appsup-dart/x509/pull/25) from faithoflifedev). ([d3f7fcb9](https://github.com/appsup-dart/x509/commit/d3f7fcb9956beefc6f41e67832a824304d09210b))
