@@ -53,7 +53,7 @@ class ObjectIdentifier {
   int get hashCode => ListEquality().hash(nodes);
 
   @override
-  bool operator ==(dynamic other) =>
+  bool operator ==(Object other) =>
       other is ObjectIdentifier && ListEquality().equals(nodes, other.nodes);
 
   String get name {
